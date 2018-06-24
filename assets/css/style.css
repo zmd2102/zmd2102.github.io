@@ -1,0 +1,85 @@
+body {
+    background-image: url(../images/qbkls.png)
+}
+.name {
+    border: 15px solid rgb(11, 104, 96);
+    background-color: rgb(11, 104, 96);
+    position: relative;
+    float: left;
+    font-size: 30px;
+    color: white;
+    margin-left: 360px;
+}
+.container {
+    margin: 0 auto;
+    width: 100%;
+    box-sizing: border-box;
+    align-content: center;
+    display: inline-block
+}
+nav {
+    float: right;
+    margin-top: 25px;
+  }
+  
+  nav a {
+    display: inline-block;
+    padding-left: 15px;
+    margin-left: 15px;
+    line-height: 18px;
+    color: #999;
+    text-decoration: none;
+    border-left: 1px solid #efefef;
+  }
+  
+  nav a:first-child {
+    border-left: 0 none;
+  }
+  
+.extrainfo {
+    display: inline-block;
+    text-decoration: none;
+    text-align: right;
+}
+.aboutme {
+    font-family: cursive;
+    text-align: left;
+    background-color: white;
+    margin-right: 25%;
+    margin-left: 25%;
+    margin-top: 5%;
+    color: grey;
+}
+.aboutmetitle {
+    font-size: 50px;
+    color: rgb(11, 104, 96);
+}
+.img {
+    float: left
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 10%;
+    background-color: grey;
+    text-align: center;
+    padding: 10px 0px 0px 0px rgb(11, 104, 96);
+ }
+@media only screen and (max-width: 980px) {
+
+ }
+@media only screen and (max-width: 760px) {
+
+}
+@media only screen and (max-width: 640px) {
+    .name {
+        position: static;
+        margin-left: 30%;
+    }
+    nav {
+        float: none;
+    }
+
+}
